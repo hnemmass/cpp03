@@ -6,11 +6,11 @@
 /*   By: hnemmass <hnemmass@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 19:25:41 by hnemmass          #+#    #+#             */
-/*   Updated: 2025/11/08 21:14:31 by hnemmass         ###   ########.fr       */
+/*   Updated: 2025/11/08 21:41:16 by hnemmass         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "FragTrap.hpp"
+#include "../include/FragTrap.hpp"
 
 FragTrap::FragTrap():
 ClapTrap("default")
@@ -30,10 +30,10 @@ ClapTrap(s)
 	this->attack_damage = 30;
 }
 
-FragTrap::FragTrap(const FragTrap &other)
+FragTrap::FragTrap(const FragTrap &other):
+ClapTrap(other)
 {
 	std::cout << "FragTrap Copy constructor called" << std::endl;
-	*this = other;
 }
 
 FragTrap &FragTrap::operator=(const FragTrap &other)

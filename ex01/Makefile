@@ -1,7 +1,7 @@
-NAME = ClapTrap
+NAME = ScavTrap
 CC = c++ -std=c++98 -Wall -Werror -Wextra
 
-SRC = ClapTrap.cpp main.cpp
+SRC = ClapTrap.cpp ScavTrap.cpp main.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
@@ -9,7 +9,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
-%.o: %.cpp ClapTrap.hpp
+%.o: %.cpp ClapTrap.hpp ScavTrap.hpp
 	$(CC) -c $< -o $@
 
 clean:

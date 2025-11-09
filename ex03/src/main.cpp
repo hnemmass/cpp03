@@ -6,12 +6,12 @@
 /*   By: hnemmass <hnemmass@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/06 14:01:31 by hnemmass          #+#    #+#             */
-/*   Updated: 2025/11/08 21:02:15 by hnemmass         ###   ########.fr       */
+/*   Updated: 2025/11/08 21:29:24 by hnemmass         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
-#include "FragTrap.hpp"
+#include "../include/ClapTrap.hpp"
+#include "../include/FragTrap.hpp"
 
 int main()
 {

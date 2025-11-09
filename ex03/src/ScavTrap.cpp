@@ -6,11 +6,11 @@
 /*   By: hnemmass <hnemmass@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 19:25:41 by hnemmass          #+#    #+#             */
-/*   Updated: 2025/11/08 21:24:38 by hnemmass         ###   ########.fr       */
+/*   Updated: 2025/11/08 21:38:55 by hnemmass         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ScavTrap.hpp"
+#include "../include/ScavTrap.hpp"
 
 ScavTrap::ScavTrap():
 ClapTrap("default")
@@ -30,10 +30,10 @@ ClapTrap(s)
 	this->attack_damage = 20;
 }
 
-ScavTrap::ScavTrap(const ScavTrap &other)
+ScavTrap::ScavTrap(const ScavTrap &other):
+ClapTrap(other)
 {
 	std::cout << "ScavTrap Copy constructor called" << std::endl;
-	*this = other;
 }
 
 ScavTrap &ScavTrap::operator=(const ScavTrap &other)
