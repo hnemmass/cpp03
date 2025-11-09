@@ -6,7 +6,7 @@
 /*   By: hnemmass <hnemmass@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/06 14:02:12 by hnemmass          #+#    #+#             */
-/*   Updated: 2025/11/08 21:29:03 by hnemmass         ###   ########.fr       */
+/*   Updated: 2025/11/09 23:17:20 by hnemmass         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ hit_point(10),
 energy_point(10),
 attack_damage(0)
 {
-	std::cout << "ClapTrap player stats constructor called" << std::endl;
+	std::cout << "ClapTrap Default constructor called" << std::endl;
 }
 
 ClapTrap::ClapTrap(const ClapTrap &old)

@@ -6,7 +6,7 @@
 /*   By: hnemmass <hnemmass@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 19:25:41 by hnemmass          #+#    #+#             */
-/*   Updated: 2025/11/08 21:38:55 by hnemmass         ###   ########.fr       */
+/*   Updated: 2025/11/09 23:17:49 by hnemmass         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ ClapTrap("default")
 ScavTrap::ScavTrap(const std::string s):
 ClapTrap(s)
 {
-	std::cout << "ScavTrap player stats constructor called" << std::endl;
+	std::cout << "ScavTrap Default constructor called" << std::endl;
 	this->hit_point = 100;
 	this->energy_point = 50;
 	this->attack_damage = 20;

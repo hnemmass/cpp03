@@ -1,7 +1,7 @@
-NAME = FragTrap
+NAME = DiamondTrap
 CC = c++ -std=c++98 -Wall -Werror -Wextra
 
-SRC = src/ClapTrap.cpp src/ScavTrap.cpp src/FragTrap.cpp src/main.cpp
+SRC = src/ClapTrap.cpp src/ScavTrap.cpp src/FragTrap.cpp src/DiamondTrap.cpp src/main.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)

@@ -6,7 +6,7 @@
 /*   By: hnemmass <hnemmass@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 19:25:41 by hnemmass          #+#    #+#             */
-/*   Updated: 2025/11/08 21:39:31 by hnemmass         ###   ########.fr       */
+/*   Updated: 2025/11/09 23:17:41 by hnemmass         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ ClapTrap("default")
 FragTrap::FragTrap(const std::string s):
 ClapTrap(s)
 {
-	std::cout << "FragTrap player stats constructor called" << std::endl;
+	std::cout << "FragTrap Default constructor called" << std::endl;
 	this->hit_point = 100;
 	this->energy_point = 100;
 	this->attack_damage = 30;
