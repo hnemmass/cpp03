@@ -6,7 +6,7 @@
 /*   By: hnemmass <hnemmass@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 19:25:38 by hnemmass          #+#    #+#             */
-/*   Updated: 2025/11/09 10:49:22 by hnemmass         ###   ########.fr       */
+/*   Updated: 2025/11/10 15:35:47 by hnemmass         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,9 @@
 
 class ScavTrap: virtual public ClapTrap
 {
+	protected:
+		unsigned int energy_v2;
+		
 	public:
 		ScavTrap();
 		ScavTrap(const std::string s);

@@ -6,7 +6,7 @@
 /*   By: hnemmass <hnemmass@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/08 21:27:45 by hnemmass          #+#    #+#             */
-/*   Updated: 2025/11/10 15:14:06 by hnemmass         ###   ########.fr       */
+/*   Updated: 2025/11/10 15:37:57 by hnemmass         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ ClapTrap(), ScavTrap(), FragTrap()
 	std::cout << "DianmondTrap default constructor called" << std::endl;
 	this->name = "DefaultDT";
 	this->hit_point = FragTrap::hit_point;
-	this->energy_point = ScavTrap::energy_point;
+	this->energy_point = ScavTrap::energy_v2;
 	this->attack_damage = FragTrap::attack_damage;
 }
 
@@ -35,7 +35,7 @@ ClapTrap(s + "_clap_name"), ScavTrap(), FragTrap()
 	std::cout << "DianmondTrap Default constructor called" << std::endl;
 	this->name = s;
 	this->hit_point = FragTrap::hit_point;
-	this->energy_point = ScavTrap::energy_point;
+	this->energy_point = ScavTrap::energy_v2;
 	this->attack_damage = FragTrap::attack_damage;
 }
 
